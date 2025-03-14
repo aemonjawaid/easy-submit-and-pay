@@ -1,25 +1,33 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import { BrowserRouter as Router, Route, Routes, Link } from "react-router-dom";
+import Contact from "./components/Contact";
+import Feedback from "./components/Feedback";
+import Signup from "./components/Signup";
+import Checkout from "./components/Checkout";
+import "./styles.css"; // Import global styles
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+const Home = () => (
+  <div className="container">
+    <h1 className="title">Welcome to Our Website</h1>
+    <nav>
+      <Link className="nav-link" to="/contact">Contact</Link>
+      <Link className="nav-link" to="/feedback">Feedback</Link>
+      <Link className="nav-link" to="/signup">Signup</Link>
+      <Link className="nav-link" to="/checkout">Checkout</Link>
+    </nav>
+  </div>
+);
+
+const App = () => (
+  <Router>
+    <Routes>
+      <Route path="/" element={<Home />} />
+      <Route path="/contact" element={<Contact />} />
+      <Route path="/feedback" element={<Feedback />} />
+      <Route path="/signup" element={<Signup />} />
+      <Route path="/checkout" element={<Checkout />} />
+    </Routes>
+  </Router>
+);
 
 export default App;
