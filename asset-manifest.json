@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/aemonjawaid/easy-submit-and-pay/static/css/main.7f571784.css",
-    "main.js": "/aemonjawaid/easy-submit-and-pay/static/js/main.d7a72472.js",
-    "static/js/453.daa9fa27.chunk.js": "/aemonjawaid/easy-submit-and-pay/static/js/453.daa9fa27.chunk.js",
-    "index.html": "/aemonjawaid/easy-submit-and-pay/index.html",
-    "main.7f571784.css.map": "/aemonjawaid/easy-submit-and-pay/static/css/main.7f571784.css.map",
-    "main.d7a72472.js.map": "/aemonjawaid/easy-submit-and-pay/static/js/main.d7a72472.js.map",
-    "453.daa9fa27.chunk.js.map": "/aemonjawaid/easy-submit-and-pay/static/js/453.daa9fa27.chunk.js.map"
+    "main.css": "/easy-submit-and-pay/static/css/main.7f571784.css",
+    "main.js": "/easy-submit-and-pay/static/js/main.fe7f3de4.js",
+    "static/js/453.daa9fa27.chunk.js": "/easy-submit-and-pay/static/js/453.daa9fa27.chunk.js",
+    "index.html": "/easy-submit-and-pay/index.html",
+    "main.7f571784.css.map": "/easy-submit-and-pay/static/css/main.7f571784.css.map",
+    "main.fe7f3de4.js.map": "/easy-submit-and-pay/static/js/main.fe7f3de4.js.map",
+    "453.daa9fa27.chunk.js.map": "/easy-submit-and-pay/static/js/453.daa9fa27.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.7f571784.css",
-    "static/js/main.d7a72472.js"
+    "static/js/main.fe7f3de4.js"
   ]
 }
