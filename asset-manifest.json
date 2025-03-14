@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/easy-submit-and-pay/static/css/main.7f571784.css",
-    "main.js": "/easy-submit-and-pay/static/js/main.fe7f3de4.js",
+    "main.js": "/easy-submit-and-pay/static/js/main.227a1e4c.js",
     "static/js/453.daa9fa27.chunk.js": "/easy-submit-and-pay/static/js/453.daa9fa27.chunk.js",
     "index.html": "/easy-submit-and-pay/index.html",
     "main.7f571784.css.map": "/easy-submit-and-pay/static/css/main.7f571784.css.map",
-    "main.fe7f3de4.js.map": "/easy-submit-and-pay/static/js/main.fe7f3de4.js.map",
+    "main.227a1e4c.js.map": "/easy-submit-and-pay/static/js/main.227a1e4c.js.map",
     "453.daa9fa27.chunk.js.map": "/easy-submit-and-pay/static/js/453.daa9fa27.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.7f571784.css",
-    "static/js/main.fe7f3de4.js"
+    "static/js/main.227a1e4c.js"
   ]
 }
